@@ -43,7 +43,7 @@ const Problemas = () => {
   return (
     <section id="problems" className="py-5">
       <div className="container">
-        <h2 className="text-center mb-5">É provável que você já sentiu...</h2>
+        <h2 className="text-center mb-5">Posso te ajudar com:</h2>
 
         <div className="accordion">
           {problemas.map((problema, index) => (

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer class="footer bg-secondary text-dark py-4 mt-5">
       <div class="container text-center text-white">
-        <h5 class="fw-bold mb-2">Dra. Pâmela Sousa</h5>
+        <h5 class="fw-bold mb-2">Pâmela Sousa</h5>
         <p class="mb-2">Psicóloga | CRP 17/7870</p>
 
         <p class="mb-3">
@@ -14,7 +14,7 @@ const Footer = () => {
           >
             pamelabatistadeandrades@gmail.com
           </a>
-          |
+          <br />
           <a href={whatsAppLink} target="_blank" class="text-white">
             +558488708809
           </a>

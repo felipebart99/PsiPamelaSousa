@@ -1,21 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pâmela Sousa Psicóloga | Terapia Online</title>
+    <meta
+      name="description"
+      content="A psicóloga Pâmela Sousa oferece atendimento psicológico online com empatia e sigilo. Agende sua consulta e cuide da sua saúde mental no conforto da sua casa."
+    />
+    <meta
+      name="keywords"
+      content="psicóloga online, terapia online, psicologia, saúde mental, Pâmela Sousa, psicóloga, atendimento psicológico, terapia cognitivo-comportamental"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/pamela-favicon.jpg" />
+
+    <!-- Open Graph (para Facebook, WhatsApp, LinkedIn, etc.) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta
+      property="og:title"
+      content="Pâmela Sousa Psicóloga | Terapia Online"
+    />
+    <meta
+      property="og:description"
+      content="Atendimento psicológico online com empatia e sigilo. Agende sua sessão com a psicóloga Pâmela Sousa."
+    />
+    <meta property="og:url" content="https://psipamelasousa.com.br/" />
+    <meta property="og:site_name" content="Pâmela Sousa Psicóloga" />
+    <meta property="og:image" content="/pamela-og.png" />
+    <meta
+      property="og:image:alt"
+      content="Pâmela Sousa Psicóloga - Terapia Online"
+    />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Pâmela Sousa Psicóloga | Terapia Online"
+    />
+    <meta
+      name="twitter:description"
+      content="Cuide da sua saúde mental com conforto e sigilo. Psicóloga Pâmela Sousa - Terapia online."
+    />
+    <meta name="twitter:image" content="/pamela-og.png" />
+
+    <!-- Dados Estruturados (Schema.org) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Psychologist",
+        "name": "Pâmela Sousa",
+        "image": "https://psipamelasousa.com.br/pamela-og.png",
+        "description": "A psicóloga Pâmela Sousa oferece atendimento psicológico online, com foco em escuta empática, acolhimento e desenvolvimento emocional.",
+        "url": "https://psipamelasousa.com.br/",
+        "telephone": "+55 81 99999-9999",
+        "email": "contato@psipamelasousa.com.br",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Recife",
+          "addressRegion": "PE",
+          "addressCountry": "BR"
+        },
+        "sameAs": [
+          "https://www.instagram.com/psipamelasousa",
+          "https://www.facebook.com/psipamelasousa"
+        ],
+        "availableService": {
+          "@type": "MedicalTherapy",
+          "name": "Terapia Online",
+          "areaServed": "Brasil",
+          "serviceType": "Psicoterapia"
+        }
+      }
+    </script>
+
+    <!-- Bootstrap e ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Pâmela Sousa Psicóloga</title>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
